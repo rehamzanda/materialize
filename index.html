@@ -1,0 +1,240 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Materialize</title>
+    <style>
+    header{
+        background: url(images/stars.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 900px;
+    }
+    
+    @media screen and (max-width:670px){
+    header{
+        min-height: 500px;}
+    }
+    </style>
+    
+</head>
+<body>
+
+
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">Dream</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                    </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Photo's</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="btn-floating  blue darken-3 waves-light waves-effect pulse"><i class="material-icons">favorite</i></a></li>
+                </ul> 
+
+                <ul class="sidenav grey lighten-1" id="mobile-menu">
+                    <li><a href="#">Photo's</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>  
+                </ul>
+            </div>
+        </nav>    
+    </header>
+  <!-- photo / grid -->
+    <section class="container section" id="photo's">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="/images/nature.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-3">Nature</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis labore necessitatibus, iusto exercitationem nam vero quibusdam, commodi a nemo omnis delectus molestias eius sed consequuntur rem totam possimus odit?</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="/images/city.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l4 right-align">
+                <h2 class="indigo-text text-darken-3">City</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis labore necessitatibus, iusto exercitationem nam vero quibusdam, commodi a nemo omnis delectus molestias eius sed consequuntur rem totam possimus odit?</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/images/city.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                
+                    <div class="card-content">
+                        <span class="card-title">City</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis labore necessitatibus, iusto exercitationem nam vero quibusdam, commodi a nemo omnis delectus molestias eius sed consequuntur rem totam possimus odit?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="">View More</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+    </section>
+
+
+  <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="/images/city.jpg" alt="" class="responsive-i">
+        </div>  
+    </div>    
+  <!-- services / tabs -->
+    <section class="container" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-3">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore maxime, in aliquam dicta adipisci quia veritatis nihil maiores quos iste soluta. Tempore omnis fugit quia in possimus non a. At.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore maxime, in aliquam dicta adipisci quia veritatis nihil maiores quos iste soluta. Tempore omnis fugit quia in possimus non a. At.</p>
+            </div>
+             <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-3">Photography</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-3">Editing</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="photography">
+                    <p class="flow-text indigo-text text-darken-3">Photography</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit consequatur aliquid doloremque atque rerum hic quod sunt ducimus rem, distinctio corporis id aut alias accusantium debitis repellat reprehenderit obcaecati?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit consequatur aliquid doloremque atque rerum hic quod sunt ducimus rem, distinctio corporis id aut alias accusantium debitis repellat reprehenderit obcaecati?</p>
+                </div>
+                <div class="col s12" id="editing">
+                    <p class="flow-text indigo-text text-darken-3">Editing</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit consequatur aliquid doloremque atque rerum hic quod sunt ducimus rem, distinctio corporis id aut alias accusantium debitis repellat reprehenderit obcaecati?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit consequatur aliquid doloremque atque rerum hic quod sunt ducimus rem, distinctio corporis id aut alias accusantium debitis repellat reprehenderit obcaecati?</p>
+                </div>
+             </div>
+
+        </div>
+
+
+    </section>
+
+  <!-- contact form -->
+    <section class="section container" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h5 class="indigo-text text-darken-3">Our Prices</h5>
+                <table class="highlight centered responsive-table">
+                    <thead>
+                      <tr>
+                          <th>Services</th>
+                          <th>session hours</th>
+                          <th>Price</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td>Editing</td>
+                        <td>1 hour</td>
+                        <td>$50</td>
+                      </tr>
+                      <tr>
+                        <td>Photography</td>
+                        <td>at least 3 hours</td>
+                        <td>$300 for this session</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i> 
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services required:</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Photography</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Editing</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+  <!-- footer -->
+    <footer class="page-footer grey text-darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5 class="grey-text text-darken-3">Why Dream:</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore maxime, in aliquam dicta adipisci quia veritatis nihil maiores quos iste soluta. Tempore omnis fugit quia in possimus non a. At.</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2018 Dream</div>
+        </div>
+    </footer>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+    });
+  </script>
+</body>
+</html>
